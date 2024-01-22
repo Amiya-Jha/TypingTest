@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(to bottom, #db8d11, #a5d5e8, #19c42a);
+  
+}
+
+body,
+.quote-input {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  background-color: rgba(255,255,255,0.9);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  width: 700px;
+  max-width: 90%;
+  margin: 2rem auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.timer {
+  position: absolute;
+  top: 2rem;
+  font-size: 3rem;
+  color: #2605ff;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.quote-display {
+    margin: 1rem 0;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  
+.quote-input {
+  background-color: transparent;
+  border: 2px solid #a1922e;
+  outline: none;
+  width: 100%;
+  height: 8rem;
+  margin: auto;
+  resize: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+.quote-input:focus {
+  border-color: black;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+  text-decoration: underline;
+}
+
+.results-box {
+  background-color: #d7e685;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#newTestButton {
+  display: block;
+  margin: 1rem auto;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#newTestButton:hover {
+  background-color: #45a049;
+}
