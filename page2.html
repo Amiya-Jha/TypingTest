@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script type="module" src="script2.js" defer></script>
-    <title>One minute Test</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="script2.js" defer></script>
+  <title>One minute Test</title>
 </head>
+
 <body>
   <div class="timer" id="timer"></div>
   <div class="container">
+    <a href="index.html" class="quit-link button">Quit</a>
     <div class="quote-display" id="quoteDisplay"></div>
     <textarea id="quoteInput" class="quote-input" autofocus></textarea>
     <div class="results-box" id="resultsBox"></div>
     <button id="newTestButton" onclick="startNewTest()">Take New Test</button>
-    <h4>Attempt this one minute fun test and see your typing speed and accuracy.</h4>
+    <p>Attempt this one minute fun test and see your typing speed and accuracy.</p>
   </div>
   <script>
     function startNewTest() {
@@ -23,4 +26,5 @@
     }
   </script>
 </body>
+
 </html>
